@@ -86,18 +86,20 @@
         <div class="Registered_box_right_download">
           <p>應用下載</p>
           <div>
-            <img src="@/assets/img/appleIcon.png" alt="" />
+            <img src="@/assets/img/appleIcon1.png" alt="" />
+            <!-- <img src="@/assets/img/appleIcon.png" alt="" />
             <p>
               Download on the
               <em>App Store</em>
-            </p>
+            </p> -->
           </div>
           <div>
-            <img src="@/assets/img/glogoIcon.png" alt="" />
+            <img src="@/assets/img/glogoIcon1.png" alt="" />
+            <!-- <img src="@/assets/img/glogoIcon.png" alt="" />
             <p>
               GET IT ON
               <em>Google Play</em>
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
@@ -503,19 +505,22 @@ export default {
         div {
           margin-top: 18px;
           cursor: pointer;
-          width: 152px;
-          height: 56px;
-          background: #000000;
-          border-radius: 6px;
+          // width: 152px;
+          // height: 56px;
+          // background: #000000;
+          // border-radius: 6px;
           display: flex;
           align-items: center;
           justify-content: center;
           img {
-            margin-left: 8px;
-            margin-right: 2px;
-            width: 28px;
-            height: 28px;
+            width: 100%;
           }
+          // img {
+          //   margin-left: 8px;
+          //   margin-right: 2px;
+          //   width: 28px;
+          //   height: 28px;
+          // }
           p {
             text-align: left;
             font-size: 12px;

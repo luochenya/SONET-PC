@@ -13,7 +13,7 @@
               alt=""
             />
           </div>
-          <h3 class="NotificationSettings_content_box_div_h3">基本功能</h3>
+          <h3 class="NotificationSettings_content_box_div_h3">系統通知</h3>
           <div class="NotificationSettings_content_box_div_basicSkills">
             <p>官方活動推播</p>
             <img

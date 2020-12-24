@@ -3,7 +3,7 @@
     <div class="AccountSettings_Contents">
       <HeaderMenu />
       <div class="AccountSettings_Content_box">
-        <h1>帳號設定</h1>
+        <h1>個人資料</h1>
         <div class="AccountSettings_Content_box_div">
           <p class="AccountSettings_Content_box_div_p">
             <span>暱稱</span>

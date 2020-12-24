@@ -35,16 +35,18 @@
             @error="onSignInError"
           >
             <button class="Login_box_right_content_buttonFB">
-              <img src="@/assets/img/fbIcon.png" alt="" />
-              Login with Facebook
+              <!-- <img src="@/assets/img/fbIcon.png" alt="" /> -->
+              <img src="@/assets/img/fbIcon1.png" alt="" />
+              使用Facebook帳號登入
             </button>
           </fb-signin-button>
           <button
             class="Login_box_right_content_buttonGG google-signin-button"
             v-google-signin-button="clientId"
           >
-            <img src="@/assets/img/ggIcon.png" alt="" />
-            Sign in with Google
+            <!-- <img src="@/assets/img/ggIcon.png" alt="" /> -->
+            <img src="@/assets/img/ggIcon1.png" alt="" />
+            使用Google帳號登入
           </button>
           <!-- <div class="Login_box_right_content_icon">
             <fb-signin-button
@@ -72,18 +74,20 @@
         <div class="Login_box_right_download">
           <p>應用下載</p>
           <div>
-            <img src="@/assets/img/appleIcon.png" alt="" />
+            <img src="@/assets/img/appleIcon1.png" alt="" />
+            <!-- <img src="@/assets/img/appleIcon.png" alt="" />
             <p>
               Download on the
               <em>App Store</em>
-            </p>
+            </p> -->
           </div>
           <div>
-            <img src="@/assets/img/glogoIcon.png" alt="" />
+            <img src="@/assets/img/glogoIcon1.png" alt="" />
+            <!-- <img src="@/assets/img/glogoIcon.png" alt="" />
             <p>
               GET IT ON
               <em>Google Play</em>
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
@@ -348,28 +352,40 @@ export default {
           }
         }
         .Login_box_right_content_buttonFB {
-          padding-left: 30px;
+          padding-left: 13px;
           width: 100%;
-          height: 38px;
-          background: #3656a3;
+          height: 40px;
+          // background: #3656a3;
+          background: #2553B4;
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
+          font-size: 14px;
+          font-weight: 500;
+          color: #FFFFFF;
+          line-height: 20px;
           border-radius: 2px;
           display: flex;
           align-items: center;
           img {
-            margin-right: 30px;
+            margin-right: 27px;
           }
         }
         .Login_box_right_content_buttonGG {
-          padding-left: 30px;
+          padding-left: 11px;
           margin-bottom: 18px;
           width: 100%;
           height: 38px;
-          background: #3e82f6;
+          // background: #3e82f6;
+          background: #FFFFFF;
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.24), 0px 0px 2px 0px rgba(0, 0, 0, 0.12);
           border-radius: 2px;
           display: flex;
           align-items: center;
+          font-size: 14px;
+          font-weight: 500;
+          color: rgba(0, 0, 0, 0.54);
+          line-height: 20px;
           img {
-            margin-right: 30px;
+            margin-right: 24px;
           }
         }
         .Login_box_right_content_p {
@@ -419,19 +435,22 @@ export default {
         div {
           margin-top: 18px;
           cursor: pointer;
-          width: 152px;
-          height: 56px;
-          background: #000000;
-          border-radius: 6px;
+          // width: 152px;
+          // height: 56px;
+          // background: #000000;
+          // border-radius: 6px;
           display: flex;
           align-items: center;
           justify-content: center;
           img {
-            margin-left: 8px;
-            margin-right: 2px;
-            width: 28px;
-            height: 28px;
+            width: 100%;
           }
+          // img {
+          //   margin-left: 8px;
+          //   margin-right: 2px;
+          //   width: 28px;
+          //   height: 28px;
+          // }
           p {
             text-align: left;
             font-size: 12px;
